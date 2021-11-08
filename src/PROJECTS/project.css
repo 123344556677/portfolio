@@ -1,0 +1,25 @@
+.reg{
+    width: 600px;
+}
+.h{
+    font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+}
+.d{
+    font-family: Georgia, serif;
+
+}
+/* .line{
+    
+} */
+@media screen and (max-width: 700px) {
+    .reg{
+        width: 500px;
+    }
+
+}
+@media screen and (max-width: 400px) {
+    .reg{
+        width: 450px;
+    }
+
+}

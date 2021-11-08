@@ -1,0 +1,41 @@
+/* .pi{
+    margin-left: 170px;
+    font-size: 50px;
+    color: goldenrod;
+
+} */
+.jumb{
+    text-decoration: none;
+    color: grey;
+    
+}
+.jumb:hover{
+    background-color: grey;
+    transition:0.6s ease;
+    color:red;
+}
+.det{
+    color:grey;
+}
+.ser{
+    color:grey;
+}
+.ques{
+    color: grey;
+}
+.ques:hover{
+    
+    color:white
+}
+.ico{ color:burlywood;padding: 10px 10px; }
+     .ico:hover{background-color: red; transition: 0.6s ease; color:black}
+
+     /* @media screen and (max-width: 950px) {
+        .pi{
+            margin-left: 400px;
+            font-size: 50px;
+            color: goldenrod;
+        
+        }       
+    
+    } */

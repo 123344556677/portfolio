@@ -1,0 +1,36 @@
+.name {
+    margin-left: 10px;
+    font-style: italic;
+    color:cornsilk
+}
+.coma{
+    font-size: 60px;
+    color:greenyellow;
+    margin-bottom: 32px;
+    /* position:inherit; */
+}
+/* .navbar{
+    font-style: italic;
+} */
+.bar:hover{
+    
+    border-bottom: 1px solid red;
+    transition: 0.6s ease;
+    color:coral;
+    border-end-start-radius: 5px;
+    cursor: pointer;
+   }
+/* .bar:active{
+    
+    border-bottom: 1px solid red;
+    transition: 0.6s ease;
+    color:coral;
+   
+
+} */
+@media screen and (max-width: 725px) {
+    .coma{
+        margin-right: 400px;
+    }
+
+}

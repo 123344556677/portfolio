@@ -1,0 +1,17 @@
+.icon{
+   color:grey;
+}
+.sed{
+    color:grey;
+ }
+.ii{
+    color: goldenrod;
+}
+.ed{
+    color:olivedrab;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.sed:hover{
+    color:red;
+    border-bottom: 1px solid blue;
+}
