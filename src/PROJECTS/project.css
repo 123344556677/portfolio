@@ -1,6 +1,16 @@
 .reg{
-    width: 600px;
+    width: 1300px;
+    height:400px;
 }
+.reg1{
+    width: 1205px;
+    height:425px;
+}
+.reg2{
+    width: 1205px;
+    height:425px;
+}
+
 .h{
     font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
 }

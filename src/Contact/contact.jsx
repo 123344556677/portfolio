@@ -3,10 +3,10 @@ import './contact.css'
 const Contact = () => {
     return ( 
         <>
-        <h2 className="text-center">Contact Me</h2>
+        <h2 className="text-center"id="contact">Contact Me</h2>
             <hr className="" />
             <h4 className="text-center">You can Contact Me Here.</h4>
-        <div className="container-fluid mt-3"style={{backgroundColor:"black"}} id="contact">
+        <div className="container-fluid mt-3"style={{backgroundColor:"black"}} >
        <br /><br />
             <div className="row mt-4">
                 <div className="col-md-4">
@@ -92,7 +92,7 @@ const Contact = () => {
                             </a>
                         </li>
                         <li className="nav-item">
-                            <a href="#" className="nav-link ques ">
+                            <a href="https://mail.google.com/mail/u/0/?pli=1#inbox" className="nav-link ques ">
                             <i class="fas fa-phone  mt-3">
                             <span className="ml-2">hananabdul659@gmail.com</span>
                             </i>
@@ -106,9 +106,9 @@ const Contact = () => {
         <hr className="" style={{backgroundColor:"white"}} />
         <div className="row">
             <div className="col-6 mt-3">
-            <a href="#" class="ico border rounded-circle "><i class="fab fa-facebook-square"></i></a>
+            <a href="https://www.facebook.com/ranaabdul.hanan.75" class="ico border rounded-circle "><i class="fab fa-facebook-square"></i></a>
          <a href="#" class="ico border rounded-circle ml-3"><i class="fab fa-twitter"></i></a>
-         <a href="#" class="ico border rounded-circle ml-3"><i class="fab fa-instagram"></i></a>
+         <a href="https://www.instagram.com/direct/inbox/" class="ico border rounded-circle ml-3"><i class="fab fa-instagram"></i></a>
          <br /><br /> <br />
          </div>
        

@@ -3,9 +3,9 @@ import './services.css'
 const Services = () => {
     return ( 
         <>
-        <h1 className="text-center">Services</h1>
+        <h1 className="text-center" id="service">Services</h1>
         
-        <div className="container mt-5" id="service">
+        <div className="container mt-5" >
         <hr />
         <h5 className="text-center mt-2">This is What I can Provide YOU.</h5>
         <div className="row">

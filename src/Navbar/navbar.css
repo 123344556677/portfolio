@@ -28,9 +28,11 @@
    
 
 } */
-@media screen and (max-width: 725px) {
+@media screen and (max-width: 800px) {
     .coma{
-        margin-right: 400px;
+        /* margin-right: 500px; */
+        visibility:hidden;
+        /* font-size: 20px; */
     }
 
 }
