@@ -3,7 +3,14 @@ import ReactDOM from 'react-dom';
 // import './index.css';
 import App from './App.jsx';
 // import reportWebVitals from './reportWebVitals';
-
+const { spawn } = require('child_process')
+// ✅This works:
+spawn('node', ['script.js'], {
+    env: {
+        NODE_ENV: 'production',
+        PATH: process.env.PATH
+    }
+})
 
 ReactDOM.render(
   <React.StrictMode>
