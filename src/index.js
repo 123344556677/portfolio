@@ -3,8 +3,7 @@ import ReactDOM from 'react-dom';
 // import './index.css';
 import App from './App.jsx';
 // import reportWebVitals from './reportWebVitals';
-const { spawn } = require('child_process');
-const child = spawn('dir', [], {shell: true});
+
 
 ReactDOM.render(
   <React.StrictMode>
