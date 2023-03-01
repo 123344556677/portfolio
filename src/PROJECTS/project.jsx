@@ -6,7 +6,7 @@ import webpage from './web.gif'
 import regi from './reg.gif'
 import co from './co.gif'
 import './project.css'
-import Carousel from 'react-elastic-carousel';
+// import Carousel from 'react-elastic-carousel';
 const Projects = () => {
     return ( 
         <>
@@ -15,7 +15,7 @@ const Projects = () => {
          
          <hr className="" />
          </div>
-        <Carousel 
+        {/* <Carousel 
         enableAutoPlay
         autoPlaySpeed={26000}
          disableArrowsOnEnd={false}>
@@ -28,7 +28,7 @@ const Projects = () => {
 
         
 
-        </Carousel>
+        </Carousel> */}
         
         </>
      );
